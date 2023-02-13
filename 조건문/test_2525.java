@@ -2,6 +2,7 @@ package back_java.조건문;
 
 import java.util.Scanner;
 
+//왜ㅠㅠ 왜 틀리는 것이야 ㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠㅠ
 
 public class test_2525 {
   public static void main(String[] args){
@@ -15,7 +16,7 @@ public class test_2525 {
      
      int min = B+ time;
      
-     if (min>60){
+     if (min>=60){
       A= min/60 + A;
       min = min%60;
      }
