@@ -17,7 +17,6 @@ public class test_1546 {
 
     for(int i=0; i<n; i++){
       num[i] = Double.parseDouble(arr[i]);
-      System.out.println(num[i]);
     }
     
     //오름차순 
