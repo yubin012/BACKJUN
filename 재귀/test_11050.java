@@ -12,8 +12,6 @@ public class test_11050 {
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     String [] NK = bf.readLine().split(" ");
 
-    
-
     int N = Integer.parseInt(NK[0]);
     int K = Integer.parseInt(NK[1]);
 
@@ -21,6 +19,7 @@ public class test_11050 {
     System.out.println(res);
   
   }
+  
   public static int NCR(int n, int k){
     if(n==0 || k ==0){
       return 1;

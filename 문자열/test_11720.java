@@ -18,6 +18,7 @@ public class test_11720 {
     for(int i=0; i<num; i++){
       tmp[i] = Integer.parseInt(arr[i]);
     }
+    
     for(int j=1; j<num; j++){
       tmp[j] += tmp[j-1];
     }
