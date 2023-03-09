@@ -1,4 +1,4 @@
-package back_java.재귀;
+package back_java.브루트포스;
 
 import java.io.BufferedReader;
 import java.io.IOException;
