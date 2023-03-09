@@ -9,9 +9,9 @@ public class test_2231_re {
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     
     //분해합
-
     int n = Integer.parseInt(bf.readLine());
     int m =0; 
+    
     for( int i=1; i<n; i++){
       int num =i;
       int sum =0;

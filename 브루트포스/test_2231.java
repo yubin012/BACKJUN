@@ -9,7 +9,6 @@ public class test_2231 {
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
     
     String n = bf.readLine();
-    int n_len = n.length();
     
     int num = Integer.parseInt(n);
     int res=-1;
