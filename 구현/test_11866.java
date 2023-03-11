@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
-import java.util.StringTokenizer;
+
 
 //원형 큐 이용
 public class test_11866 {
@@ -51,8 +51,6 @@ public class test_11866 {
     }
     sb.append(">");
     System.out.println(sb);
-
-    
     
 
   }
