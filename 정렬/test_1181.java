@@ -21,7 +21,6 @@ import java.util.StringTokenizer;
 public class test_1181 {
   public static void main(String[] args)throws IOException{
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
-    StringTokenizer st;
     
     int n = Integer.parseInt(bf.readLine());
     String [] arr = new String[n];
@@ -39,7 +38,7 @@ public class test_1181 {
       public int compare(String s1,String s2){
         //길이가 같다면 사전순으로 정렬
         if(s1.length() == s2.length()){
-          return s1.compareTo(s2);
+          return s1.compareTo(s2); //문자열의 길이가 같다면 사전순 정렬
         }
         //길이가 다르다면 리턴 값이 양수일 경우 바뀌고 음수이면 x
         //해당 메서드가 리턴값을 양수인지 음수인지 판별하기 때문에
@@ -58,8 +57,5 @@ public class test_1181 {
       }
       System.out.println(arr[i]);
     }
-
-   
-
   }
 }
