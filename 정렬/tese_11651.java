@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class test_11650 {
+public class tese_11651 {
   public static void main(String[] args)throws IOException{
     BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 
@@ -17,9 +17,10 @@ public class test_11650 {
     
     for(int i=0; i<n; i++){
       mat[i] = bf.readLine().split(" ");
-      for(int j=0; j<2; j++){
-        arr[i][j] = Integer.parseInt(mat[i][j]);
-      }
+      arr[i][0] = Integer.parseInt(mat[i][1]);
+      arr[i][1] = Integer.parseInt(mat[i][0]);
+      
+
     }
     
     Arrays.sort(arr, new Comparator<int[]>() {
@@ -39,6 +40,9 @@ public class test_11650 {
     
 
     for(int i=0; i<n; i++){
+      int tmp = arr[i][0];
+      arr[i][0] = arr[i][1];
+      arr[i][1] = tmp;
       for(int j=0; j<2; j++){
         System.out.print(arr[i][j]+" ");
       }
