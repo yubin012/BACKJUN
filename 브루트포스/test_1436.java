@@ -12,6 +12,7 @@ public class test_1436 {
     int cnt=0;
     int t=0;
     
+    //도대체 이걸 어케 혼자 생각해내는거지..
 
     while(cnt != n){
      t++;
@@ -26,6 +27,7 @@ public class test_1436 {
       }
      }
     }
+
     System.out.println(t);
 
   }
