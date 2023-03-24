@@ -18,8 +18,8 @@ public class test_7568 {
 
     for(int i=0; i<n; i++){
       dong_str[i] = bf.readLine().split(" ");
-      dong[i][0] = Integer.parseInt(dong_str[i][0]); //몸무게
-      dong[i][1] = Integer.parseInt(dong_str[i][1]); //키
+      dong[i][0] = Integer.parseInt(dong_str[i][0]); 
+      dong[i][1] = Integer.parseInt(dong_str[i][1]); 
     }
     
     int [] revel = new int [n];
