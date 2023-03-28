@@ -6,6 +6,8 @@ import java.io.InputStreamReader;
 import java.util.HashSet;
 import java.util.Stack;
 import java.util.StringTokenizer;
+//자바 deque
+
 
 public class test_10828 {
   public static void main(String[] args)throws IOException{
@@ -62,6 +64,3 @@ public class test_10828 {
 
 
 
-
-
-    
